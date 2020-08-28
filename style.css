@@ -66,9 +66,9 @@ article p:nth-last-child(-n+2) {
     font-size: medium;
     width: 480px;
     height: 100px;
-    text-justify: auto;
     word-wrap: break-word;
 }
+
 
 
 .divider {
@@ -93,7 +93,7 @@ article p:nth-last-child(-n+2) {
 
 
 .now {
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Inter', sans-serif;
 }
@@ -105,7 +105,7 @@ article p:nth-last-child(-n+2) {
 
 .fan {
     display: flex;
-    margin: 35px 0px 15px 0px;
+    margin: 25px 0px 25px 0px;
     position: relative;
 }
 
@@ -118,7 +118,7 @@ article p:nth-last-child(-n+2) {
 }
 
 #formation .box i {
-    margin-right: 5px;
+    margin-right: 9px;
 }
 
 #recommandation {
@@ -127,7 +127,7 @@ article p:nth-last-child(-n+2) {
 
 .fanta {
     display: flex;
-    margin: 30px 0px 20px 50px;
+    margin: 35px 0px 35px 50px;
     position: relative;
 }
 
@@ -137,18 +137,18 @@ article p:nth-last-child(-n+2) {
     }
 
     .fanta ul li {
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
 
 h4 {
-    font-size: medium;
+    font-size: 16px;
     line-height: 10px;
     margin: 10px 0px 10px 0px;
 }
 
 #right h3 {
     margin-top: 5px;
-    font-size: large;
+    font-size: 22px;
     margin-left: 0px;
 }
 
@@ -169,7 +169,7 @@ h4 {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    background-color: #DD2C00;
+    background-color: #424242;
     color: #00BCD4;
     height: 40px;
     padding-top: 5px;
@@ -230,6 +230,7 @@ img {
         margin-left: 50px;
         margin-right: 50px;
         word-wrap: break-word;
+        justify-content: center;
     }
 
 #hobit {
@@ -239,11 +240,15 @@ img {
     #hobit ul {
         text-decoration: none;
         display: flex;
-        word-wrap: break-word;
+        justify-content: space-evenly;
+        text-align: center;
+        vertical-align: central;
+        margin-left: auto;
+        line-height: 150px;
+        font-size: medium;
     }
 
         #hobit ul li {
-            margin: 30px 30px 30px 30px;
             word-wrap: break-word;
         }
 
@@ -256,179 +261,96 @@ ul {
     }
 
 /*Media queries*/
-
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1024px) {
     body {
         display: block;
     }
 
     #container {
-        width: auto;
-    }
-
-    #right, #left {
-        display: block;
-    }
-
-        #right header h1 {
-            margin-left: 30px;
-        }
-
-    .speed {
-        margin-left: 30px;
-    }
-
-    .box {
-        margin-left: 30px;
-    }
-
-    .divider {
-        margin-left: 30px;
-        width: 680px;
-    }
-
-    .fanta {
-        margin-left: 30px;
-    }
-}
-
-
-@media screen and (max-width:1140px) {
-
-    #right header h1 {
-        margin-left: 25px;
-    }
-
-    .speed {
-        margin-left: 25px;
-    }
-
-    .box {
-        margin-left: 25px;
-    }
-
-    .divider {
-        margin-left: 25px;
+        width: 1010px;
     }
 
     #left {
-        width: 350px;
+        width: 300px
     }
 
-    .fanta {
-        margin-left: 25px;
-    }
 
-    .divider {
-        width: 670px;
-    }
-
-    .fa-briefcase {
-        margin-right: 15px;
-    }
-
-    .fa-pencil {
-        margin-right: 15px;
-    }
-}
-
-@media screen and (max-width:1105px) {
-    #left {
-        width: 300px;
-    }
-
-    #hobit ul li {
-        margin: 30px 15px 30px 20px;
-    }
-}
-
-@media screen and (max-width:1059px) {
-    #left {
-        width: 250px;
-    }
-
-    #hobit ul li {
-        margin: 30px 3px 30px 7px;
-    }
-}
-
-@media screen and (max-width:1010px) {
-    article p:nth-last-child(-n+2) {
-        width: 410px;
-    }
-
-    .divider {
-        width: 650px;
-    }
-
-    #hobit ul li {
-        margin: 35px 5px 25px 5px;
-    }
-}
-
-@media screen and (max-width:950px) {
-    #right header h1 {
-        margin-left: 15px;
-    }
-
-    .speed {
-        margin-left: 15px;
-    }
-
-    .box {
-        margin-left: 15px;
-    }
-
-    .divider {
-        margin-left: 15px;
-        width: 640px;
-    }
-
-    .fanta {
-        margin-left: 15px;
-    }
-}
-
-@media screen and (max-width:935px) {
     article p:nth-last-child(-n+2) {
         width: 380px;
     }
-}
 
-@media screen and (max-width:900px) {
-    article p:nth-last-child(-n+2) {
-        width: 300px;
-        height: 130px;
+    .fan {
+        padding-bottom: 20px;
+        margin-top: 15px;
     }
 
-    #about {
-        height: 920px;
+    #right header h1 {
+        margin-left: 45px;
+    }
+
+    .speed {
+        margin-left: 45px;
+    }
+
+    .box {
+        margin-left: 45px;
+    }
+
+    .divider {
+        margin-left: 45px;
+        width: 610px;
     }
 
     .fanta {
-        padding-bottom: 0;
+        margin-left: 45px;
     }
 
-    #hobit {
-        height: 80px;
+    #formation .box i {
+        margin-right: 9px;
     }
 
-        #hobit ul {
-            margin-top: 50px;
-        }
-
-    .divider {
-        width: 560px;
-    }
-
-    #hobit ul li {
-        margin: 12px 3px 15px 7px;
+    .fas {
+        margin-right: 9px;
     }
 }
+/*Tablettes*/
 
-@media screen and (max-width:830px) {
+@media screen and (max-width:768px) {
+    #container {
+        width: 768px;
+    }
+
+    article p:nth-last-child(-n+2) {
+        width: 340px;
+    }
+
+    #right header h1 {
+        margin-left: 15px;
+    }
+
+    .speed {
+        margin-left: 15px;
+    }
+
+    .box {
+        margin-left: 15px;
+    }
+
     .divider {
-        width: 555px;
+        margin-left: 15px;
+        width: 537px;
+    }
+
+    .fanta {
+        margin-left: 15px;
+    }
+
+    #experience {
+        padding-bottom: 15px
+    }
+
+    #hobit ul {
+        line-height: 135px;
     }
 
     #left h2 {
@@ -445,49 +367,19 @@ ul {
     }
 
     #contact ul {
-        margin-left: 7px;
+        margin-left: 15px;
     }
 
-    #about p {
-        margin-left: 7px;
+    #about {
+        height: 850px;
     }
+
+        #about p {
+            margin-left: 15px;
+        }
 
     #hobit ul {
         font-size: 0.7em;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-        #hobit ul li {
-            text-align: center;
-            margin-top: 65px;
-            display: table-cell;
-        }
-}
-
-@media screen and (max-width:790px) {
-    article p:nth-last-child(-n+2) {
-        font-size: small;
-    }
-
-    .box p {
-        font-size: small;
-    }
-
-    .divider {
-        width: 500px;
-    }
-
-    #about p {
-        font-size: small;
-    }
-
-    #contact ul {
-        font-size: small;
-    }
-
-    .fanta ul {
-        font-size: small;
     }
 
     #right h2 {
@@ -502,197 +394,121 @@ ul {
         margin-right: 10px;
     }
 }
+/*Petit écran*/
 
-@media screen and (max-width:735px) {
-    #left {
-        width: 200px;
-    }
-
-        #left h2 {
-            font-size: 20px;
-        }
-
-    #right .box {
-        font-size: small;
-    }
-
-    .divider {
-        width: 455px;
-    }
-
-    #right h2 {
-        font-size: 20px;
-    }
-
-    .end {
-        padding-left: 13px;
-    }
-
-    #formation .box i {
-        margin-right: 12px;
-    }
-
-    .end {
-        padding-left: 25px;
-    }
-
-    #hobit ul li {
-        margin: 25px 3px 10px 10px;
-    }
-}
-
-@media screen and (max-width:500px) {
+@media only screen and (max-width:425px) {
     #container {
         flex-direction: column-reverse;
-        box-shadow: 1px 5px 8px #00BCD4;
+        box-shadow: 5px 5px 8px #424242;
+        width: 420px;
     }
 
     #right header h1 {
-        font-size: 3em;
+        margin-left: 10px;
+        font-size: 45px;
     }
 
-    .now {
-        font-size: 0.4em;
+    .speed {
+        margin-left: 10px;
     }
 
-    .ligne {
-        width: 12%;
+    .fa-graduation-cap {
+        margin-right: 5px;
     }
 
-    .divider {
-        width: auto;
+    .fa-briefcase {
+        margin-right: 1px;
     }
 
-    img {
-        text-align: center;
-    }
-
-    #left {
-        width: auto;
-    }
-
-    #right {
-        width: auto;
-    }
-
-        #right h2 {
-            font-size: 18px;
-        }
-
-    .fanta ul:first-child {
-        margin-right: 40px;
-    }
-
-    .fan p:first-child {
-        font-size: smaller;
-    }
-
-    article p:nth-last-child(-n+2) {
-        padding-bottom: 14px;
-        width: 250px;
-    }
-
-    .fas {
-        margin-right: 2px;
-    }
-
-    #photo {
-        height: 200px;
-    }
-
-    #contact {
-        height: 310px;
-    }
-
-    #about {
-        height: 500px;
-    }
-
-    #hobit {
-        height: 250px;
-    }
-
-        #hobit ul {
-            font-size: 2em;
-            margin: 0 auto;
-        }
-
-    #formation p:first-child {
-        margin-right: 66px;
-    }
-
-    #left h2 {
-        font-size: 30px;
-        box-shadow: 1px 2px 4px #0E0128;
-    }
-
-    #right h2 {
-        font-size: 1.2em;
-    }
-
-    .end {
-        padding-left: 13px;
-    }
-
-    #formation .box i {
-        margin-right: 2px;
-    }
-}
-
-@media only screen and (max-width:460px) {
-
-    #right header h1 {
-        font-size: 2em;
-    }
-
-    #right h2 {
-        font-size: 1em;
+    .fa-pencil {
+        margin-right: 5px;
     }
 
     .box {
+        margin-left: 10px;
         display: flex;
+        font-size: 18px;
+    }
+
+    .divider {
+        margin-left: 10px;
+        width: auto;
+    }
+
+    .fanta {
+        margin-left: 10px;
+    }
+
+        .fanta ul:first-child {
+            margin-right: 20px;
+        }
+
+    #right h2 {
+        font-size: 22px;
     }
 
     .end {
         position: absolute;
         padding-left: 60%;
+        margin-top: 9px;
     }
 
     .ligne {
-        width: 10%;
+        width: 20%;
     }
 
     .fan {
         flex-direction: column;
-    }
-
-    .fanta {
-        margin-left: 8px;
+        margin-top: 4px;
     }
 
     article p:nth-last-child(-n+2) {
-        width: 80%;
+        width: 90%;
         text-align: left;
-        padding: 15px;
+        padding: 0px 5px 5px 25px;
+        margin-bottom: 10px;
+        font-size: 18px;
     }
 
     h4 {
-        margin: 15px;
-        font-size: 0.7em;
+        margin-left: 25px;
+        font-size: 18px;
     }
 
     #right h3 {
-        margin: 15px;
-        font-size: 1em;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-top: 15px;
     }
 
-    #hobit ul {
-        margin-left: 10%;
+    #about {
+        height: 775px;
     }
 
-        #hobit ul li {
-            font-size: 0.7em;
-            text-align: center;
-            vertical-align: middle;
-        }
+    #hobit ul li {
+        font-size: 25px;
+    }
+
+    #left {
+        width: 100%;
+    }
+
+    .box {
+        font-size: 16px;
+        margin: 25px 0px 5px 25px;
+    }
+
+    .end {
+        padding-left: 25px;
+        margin-bottom: 7px;
+        line-height: 15px;
+        font-size: 18px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 110px;
+    }
 }
