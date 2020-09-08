@@ -84,7 +84,7 @@ article p:nth-last-child(-n+2) {
 #right header h1 {
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 65px;
-    margin: 50px 0px 190px 0;
+    margin: 50px 0 190px 0;
     line-height: 40px;
 }
 
@@ -127,7 +127,7 @@ article p:nth-last-child(-n+2) {
 h4 {
     font-size: 1.4em;
     line-height: 10px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0 10px 0;
 }
 
 #right h3 {
@@ -248,12 +248,16 @@ img:hover {
     }
 }
 @media all and (max-width:1024px) {
+    body {
+        margin: auto;
+    }
     img {
         width: 72%;
         margin-top: 75px;
     }
     #container {
         max-width: 1000px;
+       
     }
 
     #right {
@@ -273,16 +277,21 @@ img:hover {
     }
 
     article p:nth-last-child(-n+2) {
-        max-width: 360px;
+        width: 400px;
     }
+    
+    .fan {        
 
-    .fan {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
         margin-top: 15px;
+        font-size:0.9em;
+    }
+    .box{
+        font-size:1.2em;
     }
 
     #formation .box i {
-        margin-right: 9px;
+        margin-right: 12px;
     }
 
     .fas {
@@ -294,7 +303,7 @@ img:hover {
     }
 }
 
-/*Tablettes et Petit écran*/
+/*Tablettes */
 
 @media all and (max-width:800px) {
     img {
@@ -309,7 +318,7 @@ img:hover {
     }
     #container {
         flex-direction: column-reverse;
-        max-width:470px;
+        width:470px;
         padding:10px;
     }
    
@@ -320,19 +329,27 @@ img:hover {
     #right h2 {
             font-size: 23px;
             width:450px;    
+            margin-top:25px;
     }
     #right h3 {
             margin-bottom: 12px;
+            margin-top:20px;
            
+    }
+    #right h4{
+        margin-bottom:10px;
     }
     #left {
         box-shadow: 5px 5px 5px #424242;
         width: 100%;
     }
+   
 
     article p:nth-last-child(-n+2) {
-        max-width: 440px;
+       
         text-align: justify;
+        height:60px;
+        width:430px;
        
     }
     .fanta ul:first-child {
@@ -343,7 +360,7 @@ img:hover {
         font-size:20px;
     }
     .fa-graduation-cap {
-        margin-right: 5px;
+        margin-right: 2px;
     }
 
     .fa-briefcase {
@@ -360,32 +377,73 @@ img:hover {
     }
     .box {
         flex-direction: column;
-        margin: 10px 0px 10px 0px;
-        font-size:1.2em;
+        margin: 10px 0 0 0;
+        font-size:1.3em;
        
     }
     .fan {
        flex-direction: column;
-       margin: 10px 0px 10px 0px;
+       margin: 20px 0 140px 0;
+       font-size:1em;
     }
     #formation article p:first-child{
         margin-bottom:5px;
     }
     .fanta {
-        flex-direction: column;  
+        flex-direction: column;
+        font-size:1.1em;
     }
    
     #about p{
         padding-top:50px;
+        
+        
     }
     #contact ul li{
-        font-size:20px;
+        
+        font-size:1.4em;
     }
     .end {
         padding-left: 27px;
-        line-height: 5px;
+        line-height: 6px;
         
-    }  
+    }
+    #formation p:first-child {
+        margin-right: 0px;
+    }
+
+    #experience p:first-child {
+        margin-right: 0px;
+    }
+    #about{
+        height:750px;
+    }
+}
+/*petis ecran*/
+@media all and (max-width:425px) {
+    #container {
+     
+        width: 420px;
+    }
+    img {
+        width: 60%;
+        height: 75%;
+        margin-top: 45px;
+    }
+    #experience h2{
+        font-size:21px;
+    }
+    
+    .divider{
+       width:400px;
+    }
+
+article p:nth-last-child(-n+2) {
+    width: 390px;
+}
+    #about {
+        height: 830px;
+    }
 }
 
 
