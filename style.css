@@ -16,52 +16,38 @@ article {
     height: 140px;
     word-wrap: break-word;
     font-size: 1.3em;
-    margin-bottom:50px;
-    
-    
-    
+    margin-bottom:50px;   
 }
 ul li {
     font-size: 1.4em;
 }
-
-
 #container {
     width: 1188px;
     display: flex;
     border: 1px solid #616161;
     margin:auto;
 }
-
 i {
     color: #00BCD4;
 }
-
-
 /*coté droit*/
 .ligne {
     border: solid 1px #00BCD4;
     display: block;
-    width: 13%;
+    width: 12%;
 }
-
 .fa-graduation-cap {
     margin-right: 25px;
 }
-
 .fa-briefcase {
     margin-right: 25px;
 }
-
 .fa-pencil {
     margin-right: 25px;
 }
-
 .fas {
     margin-right: 12px;
 }
-
-
 .divider {
     width: 740px;
     height: 1px;
@@ -72,20 +58,18 @@ i {
     width: 70%;
     padding: 40px 0 10px 40px;
 }
-
 #right header h1 {
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 5em;
     margin: 50px 0 190px 0;
     line-height: 40px;
 }
-
- #right h2 {
+#right h2 {
         font-size: 2.3em;
         padding-bottom: 5px;
         text-transform: uppercase;
 
- }
+}
 .now {
     font-size: 0.4em;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -96,11 +80,9 @@ i {
     justify-content:space-between;
     margin: 25px 10px 80px 0;
 }
-
 #experience p:first-child {
     font-size:1.2em;
 }
-
 #formation .box i {
     margin-right: 13px;
 }
@@ -113,24 +95,20 @@ i {
 .fanta ul li {
         padding-bottom: 5px;
 }
-
 h4 {
     font-size: 1em;
     line-height: 10px;
     margin: 15px 0 15px 0;
 }
-
 #right h3 {
     text-transform: uppercase;
     margin-top: 5px;
     font-size: 1.4em;
 }
-
 .end {
     display: block;
     padding-left: 28px;
-    line-height: 6px;
-  
+    line-height: 6px; 
 }
 /*coté gauche*/
 #left {
@@ -139,7 +117,6 @@ h4 {
 }
 ul {
     list-style-type: none;
-
 }
 #left h2 {
     border-top: 1px solid gray;
@@ -155,28 +132,24 @@ ul {
 }
 #photo {
     text-align: center;
-    height: 350px;
-    
+    height: 350px;   
 }
-
 img {
-    width:60%;
-    height:65%;
+    width: 60%;
+    height: 65%;
     border-radius: 50%;
     border: black 2px solid;
     filter: grayscale(100%);
-    border: 3px blue solid;
+    border: 3px #FBC203 solid;
     transition: 2s;
-    margin-top:60px;
+    margin-top: 60px;
 }
 img:hover {
         filter: grayscale(0%);
 }
-
 .blue {
     color: #00BCD4;
 }
-
 #contact {
     height: 480px;
 }
@@ -184,12 +157,10 @@ img:hover {
         margin-left: 30px;
         margin-top: 20px;
 }
-
 #contact ul li {
         padding-bottom: 20px;
         text-justify: auto;
 }
-
 #about {
     height: 1140px;
     
@@ -200,27 +171,22 @@ img:hover {
         padding: 40px 30px 10px 30px;
         letter-spacing: 1px;
         text-align: justify;
-
 }
-
 #hobit {
     height: 150px;
 }
-
 #hobit ul {
       
         display: flex;
         justify-content: space-evenly;   
-    }
- #hobit ul li {
+}
+#hobit ul li {
             text-align: center;
             vertical-align: central;
             font-size:20px;
-            line-height:150px;
-       
-          
+            line-height:150px;         
 }
- ul li i {
+#hobit ul li i {
         color: #616161;
         border: #5c5252 2px solid;
         border-radius: 50%;
@@ -228,96 +194,13 @@ img:hover {
         flex: 1;
         margin: 0px 5px;
 }
-
 /*Media queries*/
-@media  (max-width:2560px) {
-    #hobit ul li {
-        line-height: 130px;
-    }
-}
-@media  (max-width:1440px) {
-    body{ 
-        width:inherit;
-        display:block;
-    }
-    #hobit ul li {
-        line-height: 135px;
-    }
-    #right{
-        width:60%; 
-        padding-right:0px;
-    }
-    #container{
-       
-        padding:0;
-    }
-
-    .fan {
-       
-        margin-right:0px;
-    }
-   
-}
-@media  (max-width:1024px) {
-   
-  #container{
-      max-width:1000px;
-  }
-    img {
-        width: 72%;
-        margin-top: 75px;
-    }
-    #experience p:first-child {
-        font-size: 1.1em;
-    }
-
-    article{
-        width:400px;
-    }
-
-    #experience h2{
-        font-size:1.9em;
-    }
-
-    .box {
-        font-size: 1.3em;
-    }
-    #about{
-        height:1200px;
-    }
-    #about P {
-            width: 250px;
-            font-size: 1.2em;
-            padding: 40px 30px 10px 30px;
-            word-wrap: break-word;
-    }
-
-    .divider {
-        max-width: 630px;
-    }
-
-    .fan {
-        padding-bottom: 15px;
-        margin-top: 15px;
-        font-size: 0.9em;
-    }
-
-
-    #formation .box i {
-        margin-right: 12px;
-    }
-
-
-
-    #hobit ul li {
-        line-height: 120px;
-    }
-}
-
-/*Tablettes et petit écran*/
-
+/*Tablettes*/
 @media(max-width:800px) {
-
+    body{
+        display:block;
+        margin:0 auto;
+    }
     img {
         width: 60%;
         height: 85%;
@@ -327,20 +210,18 @@ img:hover {
         flex-direction: column-reverse;
         max-width:450px;
         padding: 10px;
+        margin:0 auto;    
     }
-
     article {
         width:430px;
         text-align: justify;
-        padding-bottom:40px;
+        padding-bottom:50px;
     }
-
     #right {
         
         padding:10px;
         width:100%;
     }
-
     #right header h1 {
             font-size: 2.5em;
     }
@@ -349,73 +230,97 @@ img:hover {
             width: 450px;
             margin-top: 25px;
     }
-
     #right h3 {
             font-size: 1em;
             margin-top: 20px;
     }
-
     #right h4 {
             font-size: 0.90em;
     }
-
     #left {
         box-shadow: 5px 5px 5px #424242;
         width: 100%;
     }
-
-    .fanta ul:first-child {
-        margin-bottom: 15px;
-    }
-
-    .fa-graduation-cap {
-        margin-right: 2px;
-    }
-
-    .fa-briefcase {
-        margin-right: 0;
-    }
-
     .divider {
-        width: 430px;
+        width: auto;
     }
-
     .box {
         flex-direction: column;
-        font-size: 1.2em;
-    }
-
-    .fan {
-        flex-direction: column;
-        margin: 20px 0 50px 0;
         font-size: 1em;
     }
-
+    .fan {
+       display:block;
+        font-size: 1em;
+        justify-content:center;
+    }
     .fanta {
-        flex-direction: column;
+        display:block;
         font-size: 1.1em;
     }
-
     #about p {
         padding-top: 50px;
         width: auto;
     }
-
-    .end {
-        padding-left: 27px;
-        line-height: 6px;
-    }
-
     #about {
-        height: 710px;
+        height: 760px;
     }
-   
-
-    
-    
+    #hobit ul li {
+       
+       line-height:120px; 
+    }   
 }
-
-      
+/*petits écran*/
+@media(max-width:425px){
+    #container{
+        width:310px;
+       margin:0 auto;
+    }
+    #right {
+        width: auto;
+        margin-right: 0;  
+    }
+    #right header h1{
+        font-size:2em;
+        margin-bottom:80px;
+    }
+    #left {
+        width: auto;
+    }
+    article{
+     width:100%;
+     font-size:1em;
+     padding-bottom:30px;
+    }
+    .fa-graduation-cap {
+        margin-right: 2px;
+    }
+    .fa-briefcase {
+        margin-right: 2px;
+    }
+    .fa-pencil {
+        margin-right: 2px;
+    }
+    #experience h2{
+        font-size:1em;
+    }
+    img {  
+        height: 60%;
+        margin-top: 68px;
+    }
+    ul li{
+        font-size:1.1em;
+    }
+    #contact{
+        height:410px;
+    }
+    #about {
+        height: 880px;
+    }
+    #about p{
+        word-wrap:break-word;
+        padding-top:10px;
+    }
+}       
 
     
 
