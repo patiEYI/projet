@@ -1,20 +1,14 @@
 
-/* Definition des polices personnalisees */
-@font-face {
-    font-family: 'aileronregular';
-    src: url('font/Aileron-Regular-webfont.eot');
-    src: url('font/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('font/Aileron-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
-/*general*/
+
+/*général*/
 body {
-    font-family: 'aileronregular';
+    font-family: 'Palatino Linotype';
 }
 * {
     margin: 0;
     padding: 0;
+    font-style:normal;
 }
 
 article {
@@ -44,7 +38,7 @@ i {
 }
 
 
-/*cote droit*/
+/*coté droit*/
 .ligne {
     border: solid 1px #00BCD4;
     display: block;
@@ -100,7 +94,7 @@ i {
 .fan {
     display: flex;
     justify-content:space-between;
-    margin: 25px 10px 40px 0;
+    margin: 25px 10px 80px 0;
 }
 
 #experience p:first-child {
@@ -114,6 +108,7 @@ i {
     display: flex;
     justify-content: space-around;
     padding-top:20px;
+    padding-bottom:20px;
 }
 .fanta ul li {
         padding-bottom: 5px;
@@ -183,7 +178,7 @@ img:hover {
 }
 
 #contact {
-    height: 430px;
+    height: 480px;
 }
 #contact ul {
         margin-left: 30px;
@@ -196,7 +191,7 @@ img:hover {
 }
 
 #about {
-    height: 980px;
+    height: 1140px;
     
 }
 #about P {
@@ -287,11 +282,9 @@ img:hover {
     .box {
         font-size: 1.3em;
     }
-
-    #about {
-        height: 1050px;
+    #about{
+        height:1200px;
     }
-
     #about P {
             width: 250px;
             font-size: 1.2em;
@@ -321,9 +314,9 @@ img:hover {
     }
 }
 
-/*Tablettes */
+/*Tablettes et petit écran*/
 
-@media  (max-width:800px) {
+@media(max-width:800px) {
 
     img {
         width: 60%;
@@ -332,17 +325,20 @@ img:hover {
     }
     #container {
         flex-direction: column-reverse;
-        max-width:480px;
+        max-width:450px;
         padding: 10px;
     }
 
     article {
-        width: 430px;
+        width:430px;
         text-align: justify;
+        padding-bottom:40px;
     }
 
     #right {
-        width: 100%;
+        
+        padding:10px;
+        width:100%;
     }
 
     #right header h1 {
@@ -381,7 +377,7 @@ img:hover {
     }
 
     .divider {
-        width: 450px;
+        width: 430px;
     }
 
     .box {
@@ -411,28 +407,15 @@ img:hover {
     }
 
     #about {
-        height: 640px;
-    }
-}
-/*petits ecran*/
-@media (max-width:425px) {
-    body {
-        margin: 0 auto;
-    }
-    #container{
-        
-       padding:0;
-       margin-right:auto;
-       margin-left:auto;  
-    }
-    #right{
-        padding:30px;
-    }
-    .divider{
-       width:420px;
+        height: 710px;
     }
    
+
+    
+    
 }
+
+      
 
     
 
