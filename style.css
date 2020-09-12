@@ -74,6 +74,7 @@ i {
     font-size: 0.4em;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Inter', sans-serif;
+    
 }
 .fan {
     display: flex;
@@ -222,23 +223,23 @@ img:hover {
         padding:10px;
         width:100%;
     }
-    #right header h1 {
-            font-size: 3em;
+    #right header h1  {
+            font-size:3em;
     }
     .now {
         font-size: 0.6em;
     }
     #right h2 {
-            font-size: 1.4em;
+            font-size: 1.5em;
             width: 450px;
             margin-top: 25px;
     }
     #right h3 {
-            font-size: 1.1em;
+            font-size: 1.2em;
             margin-top: 20px;
     }
     #right h4 {
-            font-size: 0.90em;
+            font-size: 1.1em;
     }
     #left {
         box-shadow: 5px 5px 5px #424242;
@@ -249,16 +250,14 @@ img:hover {
     }
     .box {
         flex-direction: column;
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
     .fan {
        display:block;
-        font-size: 1em;
         justify-content:center;
     }
     .fanta {
         display:block;
-        font-size: 1.1em;
     }
     .fanta ul:first-child{
         margin-bottom:15px;
@@ -273,60 +272,60 @@ img:hover {
     #hobit ul li {
        
        line-height:120px; 
-    }   
+    }
+    .fa-graduation-cap {
+        margin-right: 2px;
+    }
+
+    .fa-briefcase {
+        margin-right: 2px;
+    }
+
+    .fa-pencil {
+        margin-right: 2px;
+    }
 }
 /*petits écran*/
 @media(max-width:425px){
     #container{
-        width:310px;
+        
        margin:0 auto;
+       padding:10px;
     }
     #right {
         
-        margin-right: 0;  
+        margin: 10px;  
     }
     #right header h1{
         font-size:2em;
         margin-bottom:80px;
     }
-    #left {
-       
+    .divider{
+       width:95%;
     }
     article{
-     width:100%;
-     font-size:1.1em;
-     padding-bottom:60px;
-    }
-    .fa-graduation-cap {
-        margin-right: 2px;
-    }
-    .fa-briefcase {
-        margin-right: 2px;
-    }
-    .fa-pencil {
-        margin-right: 2px;
-    }
-    #experience h2{
-        font-size:1em;
+     width:92%;
+     font-size:1.4em;
+     padding-bottom:100px;
     }
     img {  
-        height: 60%;
-        margin-top: 68px;
+        
+        margin-top: 28px;
     }
     ul li{
-        font-size:1.1em;
+        font-size:1.3em;
     }
     #contact{
-        height:430px;
+        height:480px;
     }
     #contact ul {
             font-size: 1.1em;
     }
     #about {
-        height: 880px;
+        height: 710px;
     }
     #about p{
-        font-size:1.2em;
+        font-size:1.4em;
         word-wrap:break-word;
         padding-top:10px;
     }
