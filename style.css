@@ -133,21 +133,23 @@ ul {
 }
 #photo {
     text-align: center;
-    height: 350px;   
+    height: 250px;
+   
 }
 img {
-    width: 60%;
-    height: 65%;
+    height: 150px; 
+    width: 150px; 
     border-radius: 50%;
     border: black 2px solid;
-    filter: grayscale(100%);
+    margin-top: 50px;
+    /* filter: grayscale(100%);
     border: 3px #FBC203 solid;
-    transition: 2s;
-    margin-top: 60px;
+    transition: 2s; */
+    /* margin-top: 60px; */
 }
-img:hover {
+/* img:hover {
         filter: grayscale(0%);
-}
+} */
 .blue {
     color: #FBC203 ;
 }
@@ -201,11 +203,6 @@ img:hover {
     body{
         display:block;
        
-    }
-    img {
-        width: 60%;
-        height: 85%;
-        margin-top: 26px;
     }
     #container {
         flex-direction: column-reverse;
@@ -307,10 +304,6 @@ img:hover {
      width:92%;
      font-size:1.4em;
      padding-bottom:100px;
-    }
-    img {  
-        
-        margin-top: 28px;
     }
     ul li{
         font-size:1.3em;
