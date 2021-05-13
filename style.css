@@ -1,7 +1,7 @@
 
 
 
-/*général*/
+/*gï¿½nï¿½ral*/
 body {
     font-family: 'Palatino Linotype';
 }
@@ -28,11 +28,11 @@ ul li {
     margin:auto;
 }
 i {
-    color: #00BCD4;
+    color: #FBC203 ;
 }
-/*coté droit*/
+/*cotï¿½ droit*/
 .ligne {
-    border: solid 1px #00BCD4;
+    border: solid 1px #FBC203 ;
     display: block;
     width: 12%;
 }
@@ -51,7 +51,7 @@ i {
 .divider {
     width: 740px;
     height: 1px;
-    background: #00BCD4;
+    background: #FBC203 ;
     margin-top: 1px;
 }
 #right {
@@ -111,10 +111,10 @@ h4 {
     padding-left: 28px;
     line-height: 6px; 
 }
-/*coté gauche*/
+/*cotï¿½ gauche*/
 #left {
     width: 30%;
-    background-color: #00BCD4;
+    background-color: #FBC203;
 }
 ul {
     list-style-type: none;
@@ -126,7 +126,7 @@ ul {
     font-weight: bold;
     font-size: 30px;
     background-color: #424242;
-    color: #00BCD4;
+    color: #FBC203;
     height: 40px;
     padding-top: 5px;
     text-justify: auto;
@@ -149,7 +149,7 @@ img:hover {
         filter: grayscale(0%);
 }
 .blue {
-    color: #00BCD4;
+    color: #FBC203 ;
 }
 #contact {
     height: 480px;
@@ -285,7 +285,7 @@ img:hover {
         margin-right: 2px;
     }
 }
-/*petits écran*/
+/*petits ï¿½cran*/
 @media(max-width:425px){
     #container{
         
